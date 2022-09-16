@@ -6,7 +6,8 @@
 
 form {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
@@ -19,6 +20,12 @@ form > div {
 input {
   padding: 5px;
   font-size: 20px;
+}
+
+[type="submit"] {
+  max-width: 300px;
+  flex-grow: 1;
+  padding: 0 10px;
 }
 
 .select-city {
