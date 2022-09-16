@@ -1,0 +1,31 @@
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+form > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.select-city {
+  padding: 5px;
+  font-size: 20px;
+}
+
+option:first-child {
+  color: gray;
+}

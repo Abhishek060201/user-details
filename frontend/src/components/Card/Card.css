@@ -1,0 +1,49 @@
+.main {
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px rgb(201, 201, 201);
+  overflow: hidden;
+}
+
+.head {
+  height: 200px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.body {
+  text-align: left;
+  padding: 15px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(22, 22, 77);
+  margin-bottom: 10px;
+}
+
+.email {
+  font-weight: 600;
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 14px;
+  color: gray;
+}
+
+.no-city {
+  color: white;
+  font-size: 50px;
+}

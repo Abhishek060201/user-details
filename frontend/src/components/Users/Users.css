@@ -1,0 +1,29 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cities {
+  outline: rgb(22, 22, 145) ;
+  font-size: large;
+  color: rgb(39, 39, 161);
+  padding: 5px;
+  height: 40px;
+  width: 250px;
+  background-color: rgb(175, 175, 238);
+  border: none;
+  border-radius: 10px;
+}
+
+.customers {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 50px;
+}
