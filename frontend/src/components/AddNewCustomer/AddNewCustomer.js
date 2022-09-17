@@ -27,24 +27,26 @@ const AddNewCustomer = () => {
       <div className="title">Add new Customer</div>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Full name</label>
-          <input placeholder="e.g. Steve Jobs" />
-        </div>
-        <div>
-          <label>Email</label>
-          <input placeholder="steve@gmail.com" />
-        </div>
-        <div>
-          <label>City</label>
-          <select className="select-city">
-            <option value="">
-              Select City
-            </option>
-            <option value="bangalore">Bangalore</option>
-            <option value="delhi">Delhi</option>
-            <option value="hyderabad">Hyderabad</option>
-            <option value="mumbai">Mumbai</option>
-          </select>
+          <div>
+            <label>Full name</label>
+            <input placeholder="e.g. Steve Jobs" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input placeholder="steve@gmail.com" />
+          </div>
+          <div>
+            <label>City</label>
+            <select className="select-city">
+              <option value="">
+                Select City
+              </option>
+              <option value="bangalore">Bangalore</option>
+              <option value="delhi">Delhi</option>
+              <option value="hyderabad">Hyderabad</option>
+              <option value="mumbai">Mumbai</option>
+            </select>
+          </div>
         </div>
         <input type="submit" className="submit-button" />
       </form>

@@ -1,6 +1,7 @@
 .top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
@@ -15,6 +16,7 @@
   background-color: rgb(175, 175, 238);
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .customers {
@@ -26,18 +28,6 @@
 .cards {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   gap: 50px;
-}
-
-@media (max-width: 900px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
